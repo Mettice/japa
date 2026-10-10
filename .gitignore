@@ -1,0 +1,14 @@
+# Dependencies & build output
+node_modules/
+dist/
+
+# Local environment (keep the example)
+.env
+.env.*
+!.env.example
+
+# Local tooling
+.claude/
+*.log
+.DS_Store
+Thumbs.db

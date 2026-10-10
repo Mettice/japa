@@ -1,0 +1,11 @@
+[
+  {
+    "id": "placeholder_embassy_strike",
+    "title": "Embassy Go-Slow Week",
+    "banner": "PLACEHOLDER: Visa officers are on go-slow. Papers move 30% less this week.",
+    "emoji": "🐌",
+    "modifiers": { "papers": 0.7 },
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-18"
+  }
+]

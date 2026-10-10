@@ -1,0 +1,44 @@
+[
+  {
+    "id": "lagos",
+    "name": "Lagos",
+    "country": "Nigeria",
+    "flag": "🇳🇬",
+    "tagline": "Agent Chidi, Computer Village and a landlord who never sleeps.",
+    "currency": { "code": "NGN", "name": "Naira", "symbol": "₦", "position": "prefix", "perUsd": 1500, "compact": true },
+    "places": {
+      "market": "Computer Village",
+      "richArea": "Lekki",
+      "airport": "Murtala Muhammed",
+      "embassyGate": "Victoria Island Gate 2"
+    }
+  },
+  {
+    "id": "douala",
+    "name": "Douala",
+    "country": "Cameroon",
+    "flag": "🇨🇲",
+    "tagline": "Njangi money, feymen in Akwa and the original Bush Fallers.",
+    "currency": { "code": "XAF", "name": "CFA francs", "symbol": "FCFA", "position": "suffix", "perUsd": 600 },
+    "places": {
+      "market": "Akwa's back-street cyber cafés",
+      "richArea": "Bonapriso",
+      "airport": "Douala International",
+      "embassyGate": "Bonanjo Consulate Gate"
+    }
+  },
+  {
+    "id": "accra",
+    "name": "Accra",
+    "country": "Ghana",
+    "flag": "🇬🇭",
+    "tagline": "Dumsor, trotro flyers and Ghana-Must-Go bags at Kotoka.",
+    "currency": { "code": "GHS", "name": "cedis", "symbol": "GH₵", "position": "prefix", "perUsd": 15 },
+    "places": {
+      "market": "Circle",
+      "richArea": "East Legon",
+      "airport": "Kotoka",
+      "embassyGate": "Cantonments Embassy Gate"
+    }
+  }
+]

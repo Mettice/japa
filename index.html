@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0B1430" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Japa" />
+    <meta name="description" content="Build your life at home, chase your next chapter, and carry your choices with you. Japa: small steps, big dreams." />
+    
+    <!-- Open Graph for sharing -->
+    <meta property="og:title" content="Japa — Small steps. Big dreams." />
+    <meta property="og:description" content="From your first delivery to your embassy appointment. Where will you build your next life?" />
+    <meta property="og:type" content="website" />
+
+    <title>Japa — Small steps. Big dreams.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts load without blocking first paint (display=swap shows system text until ready) -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;family=Nunito:wght@700;800;900&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <!-- Emoji font only for the three city flags (Windows has none); text= keeps it to a few KB -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&amp;display=swap&amp;text=%F0%9F%87%B3%F0%9F%87%AC%F0%9F%87%A8%F0%9F%87%B2%F0%9F%87%AC%F0%9F%87%AD%F0%9F%87%A6%F0%9F%87%A7%F0%9F%87%A9%F0%9F%87%AA" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&amp;family=Nunito:wght@700;800;900&amp;display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&amp;display=swap&amp;text=%F0%9F%87%B3%F0%9F%87%AC%F0%9F%87%A8%F0%9F%87%B2%F0%9F%87%AC%F0%9F%87%AD%F0%9F%87%A6%F0%9F%87%A7%F0%9F%87%A9%F0%9F%87%AA">
+    </noscript>
+    <!-- Inline splash styles: first paint comes straight from HTML, before the JS bundle runs -->
+    <style>
+      html, body { margin: 0; height: 100%; background: #070D22; }
+      .splash { height: 100dvh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; font-family: 'Lilita One', system-ui, sans-serif; }
+      .splash-logo { width: 80px; height: 80px; border-radius: 24px; background: #FFC93C; border: 4px solid #050914; box-shadow: 0 7px 0 #050914; display: flex; align-items: center; justify-content: center; font-size: 46px; transform: rotate(-6deg); }
+      .splash-title { color: #FFC93C; font-size: 46px; letter-spacing: 1px; text-shadow: 0 4px 0 #050914; }
+    </style>
+  </head>
+  <body class="bg-navy-950 text-cream overflow-hidden select-none touch-none font-body">
+    <div id="root">
+      <!-- Replaced by React on mount -->
+      <div class="splash" aria-hidden="true">
+        <div class="splash-logo">✈️</div>
+        <div class="splash-title">JAPA</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

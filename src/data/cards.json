@@ -1,0 +1,783 @@
+[
+  {
+    "id": "hustle_1",
+    "stageId": "hustle",
+    "characterId": "mama",
+    "situation": "{@mama} barges into your room holding olive oil: 'My son, your uncle in Canada called! You must sow {$100} seed for the prophet to unlock your travelling star!'",
+    "leftChoice": {
+      "text": "Refuse and hide your wallet",
+      "effects": {
+        "money": 10,
+        "familyPressure": 15
+      }
+    },
+    "rightChoice": {
+      "text": "Sow the {$100} seed",
+      "effects": {
+        "money": -15,
+        "familyPressure": -10
+      }
+    }
+  },
+  {
+    "id": "hustle_2",
+    "stageId": "hustle",
+    "characterId": "boss",
+    "situation": "{@boss} hasn't paid salary for 3 months: 'Boy, be patient, the company is doing a global rebrand! Take this half-bag of rice as bonus.'",
+    "leftChoice": {
+      "text": "Cause scene at the office!",
+      "effects": {
+        "money": 15,
+        "papers": -10
+      }
+    },
+    "rightChoice": {
+      "text": "Humbly collect the rice",
+      "effects": {
+        "morale": -10,
+        "familyPressure": -5
+      }
+    }
+  },
+  {
+    "id": "hustle_3",
+    "stageId": "hustle",
+    "characterId": "landlord",
+    "situation": "{@landlord} is banging on your gate: 'Your annual rent expired yesterday! Pay today or I padlock your door and remove roof!'",
+    "leftChoice": {
+      "text": "Pay full rent from travel savings",
+      "effects": {
+        "money": -15,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Jump the back fence & squat with friend",
+      "effects": {
+        "money": 10,
+        "morale": -10
+      }
+    }
+  },
+  {
+    "id": "hustle_4",
+    "stageId": "hustle",
+    "characterId": "forex",
+    "situation": "Alhaji Bureau texts you at 1 AM: 'Dollar is climbing faster than monkey! If you don't change your {currencyName} tonight, by morning it will buy only biscuits!'",
+    "leftChoice": {
+      "text": "Change everything to USD now",
+      "effects": {
+        "money": 10,
+        "morale": -5
+      }
+    },
+    "rightChoice": {
+      "text": "Hold your {currencyName} and pray",
+      "effects": {
+        "money": -10,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "doc_1",
+    "stageId": "documents",
+    "characterId": "chidi",
+    "location": "cyber_cafe",
+    "situation": "{@chidi} adjusts dark sunglasses inside {market}: 'My guy, your bank balance is crying. Pay me {$200} and my boy will edit a {$26667} statement with official stamp.'",
+    "leftChoice": {
+      "text": "Pay the agent cash",
+      "effects": {
+        "money": -15,
+        "papers": 15
+      }
+    },
+    "rightChoice": {
+      "text": "Refuse and use your real statement",
+      "effects": {
+        "papers": -10,
+        "money": 5
+      }
+    }
+  },
+  {
+    "id": "doc_2",
+    "stageId": "documents",
+    "characterId": "mama",
+    "location": "agency",
+    "situation": "{@mama} brings an affidavit: 'Agent says married people get visa faster! I have matched you with your second cousin's friend. Just sign the court paper!'",
+    "leftChoice": {
+      "text": "Sign the fake marriage certificate",
+      "effects": {
+        "papers": 15,
+        "morale": -10
+      }
+    },
+    "rightChoice": {
+      "text": "Reject: 'Mama I cannot marry stranger!'",
+      "effects": {
+        "morale": 10,
+        "familyPressure": 10
+      }
+    }
+  },
+  {
+    "id": "doc_3",
+    "stageId": "documents",
+    "characterId": "uncle_london",
+    "situation": "Uncle Emma sends a WhatsApp voice note from London: 'If you want invitation letter from me, send £500 Western Union first. London is not cheap oh!'",
+    "leftChoice": {
+      "text": "Borrow money and send the £500",
+      "effects": {
+        "money": -20,
+        "papers": 20
+      }
+    },
+    "rightChoice": {
+      "text": "Tell Uncle Emma he is stingy",
+      "effects": {
+        "money": 10,
+        "familyPressure": 15
+      }
+    }
+  },
+  {
+    "id": "doc_4",
+    "stageId": "documents",
+    "characterId": "chidi",
+    "location": "agency",
+    "situation": "{@chidi} calls frantically: 'Embassy changed rules! They need medical report showing you had yellow fever vaccine in 1994. Pay {$35} express lab fee?'",
+    "leftChoice": {
+      "text": "Pay for the express fake yellow card",
+      "effects": {
+        "money": -10,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Go stand in government hospital queue",
+      "effects": {
+        "morale": -15,
+        "papers": 5
+      }
+    }
+  },
+  {
+    "id": "embassy_1",
+    "stageId": "embassy",
+    "characterId": "pastor",
+    "location": "embassy",
+    "situation": "Prophet Gabriel is holding vigil outside {embassyGate} at 3:30 AM: 'Pour this consecrated olive oil inside your shoe so every officer will show you favor!'",
+    "leftChoice": {
+      "text": "Pour oil in your brand new shoes",
+      "effects": {
+        "morale": 10,
+        "papers": -5
+      }
+    },
+    "rightChoice": {
+      "text": "Politely decline and stay focused",
+      "effects": {
+        "papers": 5,
+        "familyPressure": 5
+      }
+    }
+  },
+  {
+    "id": "embassy_2",
+    "stageId": "embassy",
+    "characterId": "customs",
+    "location": "embassy",
+    "situation": "The gate bouncer stops you: 'Oga, your phone and big envelope cannot enter the compound. Keep them in my plastic bucket for {$3} security fee.'",
+    "leftChoice": {
+      "text": "Pay and hand over your phone",
+      "effects": {
+        "money": -5,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Argue that it's extortion!",
+      "effects": {
+        "morale": 10,
+        "papers": -10
+      }
+    }
+  },
+  {
+    "id": "embassy_3",
+    "stageId": "embassy",
+    "characterId": "mama",
+    "location": "embassy",
+    "situation": "{@mama} calls as you enter the security scanner: 'Are you wearing the white handkerchief the prayer team washed with holy water?! Answer me now!'",
+    "leftChoice": {
+      "text": "Whisper: 'Yes Mama!' and kiss handkerchief",
+      "effects": {
+        "familyPressure": -10,
+        "papers": -5
+      }
+    },
+    "rightChoice": {
+      "text": "Cut the call and switch phone off",
+      "effects": {
+        "familyPressure": 15,
+        "papers": 5
+      }
+    }
+  },
+  {
+    "id": "interview_1",
+    "stageId": "interview",
+    "characterId": "smith",
+    "situation": "Consul Smith glares through bulletproof glass: 'You claim to be attending a 3-day conference on Sustainable Artificial Intelligence. What is an algorithm?'",
+    "leftChoice": {
+      "text": "'It is the spiritual pathway to success, sir!'",
+      "effects": {
+        "papers": -20,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Recite Wikipedia definition word-for-word",
+      "effects": {
+        "papers": 15,
+        "morale": -10
+      }
+    }
+  },
+  {
+    "id": "interview_2",
+    "stageId": "interview",
+    "characterId": "smith",
+    "situation": "Consul Smith inspects your {$8000} bank statement: 'Your account received a single bulk deposit of {$7933} three days before this appointment. Can you explain?'",
+    "leftChoice": {
+      "text": "'It was inheritance from my late royal uncle.'",
+      "effects": {
+        "papers": -20,
+        "morale": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Hand him an additional affidavit of explanation",
+      "effects": {
+        "papers": 15,
+        "morale": -10
+      }
+    }
+  },
+  {
+    "id": "interview_3",
+    "stageId": "interview",
+    "characterId": "smith",
+    "situation": "Consul Smith leans forward: 'You are 26, single, and have no landed property. What guarantees you will return to your home country after 2 weeks?'",
+    "leftChoice": {
+      "text": "'Sir, I love my country passionately!'",
+      "effects": {
+        "papers": -15,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Show photos of your mother and 3 family shops",
+      "effects": {
+        "papers": 20,
+        "familyPressure": 10
+      }
+    }
+  },
+  {
+    "id": "flight_1",
+    "stageId": "flight",
+    "characterId": "customs",
+    "situation": "{@customs} opens your luggage at {airport}: 'Ah! 6 tubers of yam, 4 bottles of red palm oil, and 2kg of dried crayfish! Oga, this requires custom clearing beverage.'",
+    "leftChoice": {
+      "text": "Slide {$15} into his palm",
+      "effects": {
+        "money": -10,
+        "morale": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Let him confiscate the crayfish and yam",
+      "effects": {
+        "money": 10,
+        "familyPressure": 15
+      }
+    }
+  },
+  {
+    "id": "flight_2",
+    "stageId": "flight",
+    "characterId": "mama",
+    "situation": "Flight is boarding at gate 12. {@mama} sends 47 WhatsApp pictures of family prayer warriors on their knees: 'Send {$35} for their departure transport now!'",
+    "leftChoice": {
+      "text": "Send the final {$35} billing",
+      "effects": {
+        "money": -15,
+        "familyPressure": -15
+      }
+    },
+    "rightChoice": {
+      "text": "Airplane Mode activated immediately!",
+      "effects": {
+        "familyPressure": 20,
+        "money": 5
+      }
+    }
+  },
+  {
+    "id": "flight_3",
+    "stageId": "flight",
+    "characterId": "uncle_london",
+    "situation": "Transit in Istanbul. The airline counter says your ticket was booked through a fraudulent third party! Pay $200 rebooking fee right now or get stranded?",
+    "leftChoice": {
+      "text": "Swipe emergency forex credit card",
+      "effects": {
+        "money": -20,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Shout and quote passenger bill of rights",
+      "effects": {
+        "papers": -15,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "winter_1",
+    "stageId": "winter",
+    "characterId": "landlady_europe",
+    "situation": "Frau Helga knocks at 9:00 PM: 'Why is heating set to 24°C?! In this house we wear two sweaters and keep radiator at 17°C! Pay €80 energy surcharge!'",
+    "leftChoice": {
+      "text": "Pay the €80 and keep the radiator hot",
+      "effects": {
+        "money": -10,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Turn off radiator and sleep in 4 puffer jackets",
+      "effects": {
+        "money": 5,
+        "morale": -15
+      }
+    }
+  },
+  {
+    "id": "winter_2",
+    "stageId": "winter",
+    "characterId": "uncle_london",
+    "situation": "Uncle Emma visits your cold bunkbed: 'My boy, you have arrived! Now remember: the family back home is expecting $800 monthly remittance starting next Friday.'",
+    "leftChoice": {
+      "text": "Take night shift warehouse job immediately",
+      "effects": {
+        "money": 15,
+        "morale": -15,
+        "familyPressure": -10
+      }
+    },
+    "rightChoice": {
+      "text": "'Uncle, I haven't even found my feet yet!'",
+      "effects": {
+        "familyPressure": 20,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "winter_3",
+    "stageId": "winter",
+    "characterId": "landlady_europe",
+    "situation": "Smoke detector goes off because your roommate is frying pepper and stockfish at 11 PM! Police sirens echo in the quiet European street!",
+    "leftChoice": {
+      "text": "Open windows into the freezing -5°C snow storm",
+      "effects": {
+        "morale": -10,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Cover smoke alarm with plastic shopping bag",
+      "effects": {
+        "papers": -15,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "dla_hustle_1",
+    "stageId": "hustle",
+    "characterId": "njangi",
+    "cities": [
+      "douala"
+    ],
+    "situation": "{@njangi} hands you the njangi pot in a black plastic bag: {$800} cash. Your mother already announced it in church before you even counted it.",
+    "leftChoice": {
+      "text": "Put every franc in the japa fund",
+      "effects": {
+        "money": 10,
+        "familyPressure": 15
+      }
+    },
+    "rightChoice": {
+      "text": "Share it with the family",
+      "effects": {
+        "morale": -10,
+        "familyPressure": -15
+      }
+    }
+  },
+  {
+    "id": "dla_hustle_2",
+    "stageId": "hustle",
+    "characterId": "bendskin",
+    "cities": [
+      "douala"
+    ],
+    "situation": "{@bendskin} drops you in Akwa and philosophises: 'Grand, bush is not easy. My cousin in Paris sweeps the metro at night. Me, I make {$5} a day and I am happy.' Then he charges triple fare.",
+    "leftChoice": {
+      "text": "Pay the 'philosophy tax'",
+      "effects": {
+        "money": -5,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Argue the fare in pure Camfranglais",
+      "effects": {
+        "money": 10,
+        "morale": -10
+      }
+    }
+  },
+  {
+    "id": "dla_doc_1",
+    "stageId": "documents",
+    "characterId": "feyman",
+    "location": "cyber_cafe",
+    "cities": [
+      "douala"
+    ],
+    "situation": "{@feyman} straightens his shiny suit: 'For {$500} I get you a French work contract from a vineyard. Signed by the mayor of Bordeaux himself, I swear on my mother.'",
+    "leftChoice": {
+      "text": "Pay the feyman",
+      "effects": {
+        "money": -20,
+        "papers": 15
+      }
+    },
+    "rightChoice": {
+      "text": "Walk away from the 'opportunity'",
+      "effects": {
+        "papers": -10,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "dla_doc_2",
+    "stageId": "documents",
+    "characterId": "gendarme",
+    "cities": [
+      "douala"
+    ],
+    "situation": "{@gendarme} stops your bendskin at a checkpoint: 'Papiers! Your national ID expired last week. Ça va faire {$5} for my coffee.'",
+    "leftChoice": {
+      "text": "Pay for his 'coffee'",
+      "effects": {
+        "money": -5,
+        "papers": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Insist on going to the commissariat",
+      "effects": {
+        "papers": -10,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "dla_embassy_1",
+    "stageId": "embassy",
+    "characterId": "njangi",
+    "location": "embassy",
+    "cities": [
+      "douala"
+    ],
+    "situation": "4 AM at {embassyGate}. {@njangi} is here too, selling queue places at {$15} each. Behind you, a man is reading Psalms loudly in French and Pidgin.",
+    "leftChoice": {
+      "text": "Buy a place near the front",
+      "effects": {
+        "money": -10,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Hold your place and join the Psalms",
+      "effects": {
+        "morale": 10,
+        "papers": -5
+      }
+    }
+  },
+  {
+    "id": "dla_interview_1",
+    "stageId": "interview",
+    "characterId": "smith",
+    "cities": [
+      "douala"
+    ],
+    "situation": "Consul Smith frowns: 'Your form says profession: \"call-box operator and ndolé consultant\". Please explain.'",
+    "leftChoice": {
+      "text": "'Sir, ndolé is our national dish. I consult!'",
+      "effects": {
+        "papers": -15,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Show your call-box receipt notebook",
+      "effects": {
+        "papers": 15,
+        "morale": -5
+      }
+    }
+  },
+  {
+    "id": "dla_flight_1",
+    "stageId": "flight",
+    "characterId": "customs",
+    "cities": [
+      "douala"
+    ],
+    "situation": "At {airport}, your aunt's 5kg of njansang, dried bitter leaf and one whole smoked fish set off the scanner. {@customs} smiles: 'Massa, this one is export without licence.'",
+    "leftChoice": {
+      "text": "Pay the {$20} 'licence'",
+      "effects": {
+        "money": -10,
+        "morale": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Let him keep the smoked fish",
+      "effects": {
+        "money": 5,
+        "familyPressure": 15
+      }
+    }
+  },
+  {
+    "id": "dla_winter_1",
+    "stageId": "winter",
+    "characterId": "cousin_paris",
+    "cities": [
+      "douala"
+    ],
+    "situation": "{@cousin_paris} calls from Château-Rouge: 'They are asking at home why you have not sent Western Union. I told them you are a big Bush Faller now, with office job.'",
+    "leftChoice": {
+      "text": "Send {$100} home to protect the legend",
+      "effects": {
+        "money": -10,
+        "familyPressure": -15
+      }
+    },
+    "rightChoice": {
+      "text": "Tell the truth: you wash plates",
+      "effects": {
+        "morale": 10,
+        "familyPressure": 15
+      }
+    }
+  },
+  {
+    "id": "acc_hustle_1",
+    "stageId": "hustle",
+    "characterId": "ecg",
+    "location": "cyber_cafe",
+    "cities": [
+      "accra"
+    ],
+    "situation": "Dumsor again! {@ecg} says the transformer needs a 'contribution' of {$20} per house before light comes back. Your laptop with the visa application is on 3%.",
+    "leftChoice": {
+      "text": "Pay the contribution",
+      "effects": {
+        "money": -5,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Charge your laptop at the chop bar",
+      "effects": {
+        "papers": -5,
+        "morale": 10
+      }
+    }
+  },
+  {
+    "id": "acc_hustle_2",
+    "stageId": "hustle",
+    "characterId": "sakawa",
+    "cities": [
+      "accra"
+    ],
+    "situation": "{@sakawa} pulls up at the trotro station in a Benz: 'Chale, why japa? Come work for me. You just chat with lonely oyibo on Facebook. {$500} a week.'",
+    "leftChoice": {
+      "text": "'Me I no dey do sakawa!'",
+      "effects": {
+        "morale": 10,
+        "familyPressure": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Just one week...",
+      "effects": {
+        "money": 15,
+        "papers": -10
+      }
+    }
+  },
+  {
+    "id": "acc_doc_1",
+    "stageId": "documents",
+    "characterId": "makola",
+    "location": "agency",
+    "cities": [
+      "accra"
+    ],
+    "situation": "{@makola} leans over her tomatoes at Makola: 'My nephew works at the passport office. Give me {$100} and your passport will be ready by Friday, not next year.'",
+    "leftChoice": {
+      "text": "Pay Auntie Dede",
+      "effects": {
+        "money": -10,
+        "papers": 15
+      }
+    },
+    "rightChoice": {
+      "text": "Wait for the official process",
+      "effects": {
+        "papers": -10,
+        "money": 5
+      }
+    }
+  },
+  {
+    "id": "acc_doc_2",
+    "stageId": "documents",
+    "characterId": "trotro",
+    "location": "agency",
+    "cities": [
+      "accra"
+    ],
+    "situation": "{@trotro} shouts 'Circle! Circle!' and hands you a flyer: 'GUARANTEED CANADA VISA. 100% PASS. NO IELTS. Call Prophet-Agent Kwesi.' The trotro is too packed to argue.",
+    "leftChoice": {
+      "text": "Call the number",
+      "effects": {
+        "money": -10,
+        "papers": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Use the flyer to fan yourself",
+      "effects": {
+        "morale": 10,
+        "papers": -5
+      }
+    }
+  },
+  {
+    "id": "acc_embassy_1",
+    "stageId": "embassy",
+    "characterId": "makola",
+    "location": "embassy",
+    "cities": [
+      "accra"
+    ],
+    "situation": "5 AM at {embassyGate}. Everybody is in suit and tie. {@makola} has set up a stall selling 'interview-ready' kente ties for {$20}.",
+    "leftChoice": {
+      "text": "Buy the kente tie",
+      "effects": {
+        "money": -5,
+        "morale": 10
+      }
+    },
+    "rightChoice": {
+      "text": "Go in your plain shirt",
+      "effects": {
+        "morale": -5,
+        "papers": 5
+      }
+    }
+  },
+  {
+    "id": "acc_interview_1",
+    "stageId": "interview",
+    "characterId": "smith",
+    "cities": [
+      "accra"
+    ],
+    "situation": "Consul Smith reads your sponsor letter: 'Uncle Fiifi Enterprises, East Legon. What exactly does this company do?'",
+    "leftChoice": {
+      "text": "'Sir, he does... online business.'",
+      "effects": {
+        "papers": -20,
+        "morale": 5
+      }
+    },
+    "rightChoice": {
+      "text": "Show Uncle Fiifi's fresh tax returns",
+      "effects": {
+        "papers": 15,
+        "money": -10
+      }
+    }
+  },
+  {
+    "id": "acc_flight_1",
+    "stageId": "flight",
+    "characterId": "customs",
+    "cities": [
+      "accra"
+    ],
+    "situation": "At {airport}, your Ghana-Must-Go bag weighs 31kg: shito, gari, kenkey and two frozen tilapia. The check-in agent says it's {$15} per extra kilo.",
+    "leftChoice": {
+      "text": "Pay the overweight fee",
+      "effects": {
+        "money": -10,
+        "familyPressure": -10
+      }
+    },
+    "rightChoice": {
+      "text": "Eat three balls of kenkey at the counter",
+      "effects": {
+        "morale": 10,
+        "familyPressure": 10
+      }
+    }
+  },
+  {
+    "id": "acc_winter_1",
+    "stageId": "winter",
+    "characterId": "cousin_london",
+    "cities": [
+      "accra"
+    ],
+    "situation": "{@cousin_london}: 'Charley, welcome to abrokyire! Rule one: never tell anyone at home it is cold. Rule two: send money for my sister's wedding.'",
+    "leftChoice": {
+      "text": "Send {$200} for the wedding",
+      "effects": {
+        "money": -15,
+        "familyPressure": -15
+      }
+    },
+    "rightChoice": {
+      "text": "Post a 'living my best life' photo instead",
+      "effects": {
+        "morale": 10,
+        "familyPressure": 10
+      }
+    }
+  }
+]

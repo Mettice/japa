@@ -1,0 +1,23 @@
+[
+  {
+    "id": "placeholder_cyber_1",
+    "placement": "cyber_cafe_poster",
+    "text": "PLACEHOLDER · Fast printing, scanning & CV design. Open 24/7.",
+    "url": "https://example.com/?ref=bushfaller",
+    "active": true
+  },
+  {
+    "id": "placeholder_embassy_1",
+    "placement": "embassy_board",
+    "text": "PLACEHOLDER · Visa photos in 5 minutes.",
+    "url": "https://example.com/?ref=bushfaller",
+    "active": false
+  },
+  {
+    "id": "placeholder_agency_1",
+    "placement": "agency_flyer",
+    "text": "PLACEHOLDER · Licensed study-abroad advice.",
+    "url": "https://example.com/?ref=bushfaller",
+    "active": false
+  }
+]

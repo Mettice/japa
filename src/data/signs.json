@@ -1,0 +1,29 @@
+{
+  "_note": "Street text for the 3D runner. Edit freely: {market}, {currency} and {city} are filled in per city. 'signs' are shop signs over doorways (keep them short: about 24 characters), 'banners' hang across a lane (slide under them), 'bubbles' are family WhatsApp messages that fly at you.",
+  "zones": {
+    "market": {
+      "stalls": true,
+      "signs": ["MAMA PUT", "BUKA", "GOD'S GRACE STORES", "POS · {currency}", "BUREAU DE CHANGE", "PROVISIONS", "BETTING SHOP", "NO CREDIT TODAY, COME TOMORROW", "BLESSED HANDS SALON", "ALHAJI SPARE PARTS"],
+      "banners": ["GOD WHEN?", "SAPA IS NOT MY PORTION", "JESUS IS LORD CRUSADE", "NO GREE FOR ANYBODY"],
+      "bubbles": ["Mama: send money 🙏", "Uncle: I hear say you dey travel?", "Aunty: bring iPhone for me", "Family group: who go pay school fees?"]
+    },
+    "documents": {
+      "stalls": false,
+      "signs": ["VISA AGENT 100% PASS", "CYBER CAFÉ · PRINT & SCAN", "{market}", "PASSPORT PHOTOS", "BANK STATEMENT EXPERTS", "PHONE REPAIRS", "IELTS IN 2 WEEKS", "AFFIDAVIT WHILE U WAIT"],
+      "banners": ["CANADA VISA GUARANTEED*", "STUDY ABROAD NOW", "PROOF OF FUNDS AVAILABLE", "NO IELTS NEEDED"],
+      "bubbles": ["Mama: did they give you visa?", "Pastor: sow seed for your visa", "Cousin: carry me along o", "Family group: when you dey go?"]
+    },
+    "appointment": {
+      "stalls": false,
+      "signs": ["CANADA · STUDY APPOINTMENTS", "APPLICATION CENTRE", "DOCUMENT CHECK", "WAITING AREA", "INTERVIEW ROOMS"],
+      "banners": ["HAVE YOUR FOLDER READY", "YOUR NEXT CHAPTER STARTS HERE"],
+      "bubbles": ["Mama: call me after", "Boss: breathe. You prepared for this."]
+    },
+    "business": {
+      "stalls": true,
+      "signs": ["OPEN FOR BUSINESS", "LOCAL DELIVERY", "FIRST ORDERS TODAY", "CUSTOMER PICKUP"],
+      "banners": ["SMALL STEPS. BIG DREAMS.", "WELCOME TO YOUR NEXT CHAPTER"],
+      "bubbles": ["Mama: proud of you!", "Boss: first order is waiting"]
+    }
+  }
+}

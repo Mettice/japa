@@ -1,0 +1,222 @@
+[
+  {
+    "id": "mama",
+    "name": "Mama Ngozi",
+    "role": "Chief Prayer Warrior",
+    "emoji": "👵🏾",
+    "bgColor": "#F43F5E",
+    "textColor": "#FFFFFF",
+    "borderColor": "#BE123C",
+    "cities": {
+      "douala": {
+        "name": "Mama Brigitte"
+      },
+      "accra": {
+        "name": "Maame Akua"
+      }
+    }
+  },
+  {
+    "id": "chidi",
+    "name": "Agent Chidi",
+    "role": "Visa & Spiritual Consultant",
+    "emoji": "🕶️",
+    "bgColor": "#F59E0B",
+    "textColor": "#000000",
+    "borderColor": "#B45309",
+    "cities": {
+      "douala": {
+        "name": "Agent Junior"
+      },
+      "accra": {
+        "name": "Agent Nii"
+      }
+    }
+  },
+  {
+    "id": "smith",
+    "name": "Consul Smith",
+    "role": "VFS Visa Rejection Specialist",
+    "emoji": "🧐",
+    "bgColor": "#3B82F6",
+    "textColor": "#FFFFFF",
+    "borderColor": "#1D4ED8"
+  },
+  {
+    "id": "uncle_london",
+    "name": "Uncle Emma",
+    "role": "Bush Faller Vet (Peckham, UK)",
+    "emoji": "🇬🇧",
+    "bgColor": "#8B5CF6",
+    "textColor": "#FFFFFF",
+    "borderColor": "#6D28D9"
+  },
+  {
+    "id": "forex",
+    "name": "Alhaji Bureau",
+    "role": "Black Market Dollar King",
+    "emoji": "💵",
+    "bgColor": "#10B981",
+    "textColor": "#000000",
+    "borderColor": "#047857"
+  },
+  {
+    "id": "pastor",
+    "name": "Prophet Gabriel",
+    "role": "Overseer, Embassy Deliverance Chapel",
+    "emoji": "⛪",
+    "bgColor": "#6366F1",
+    "textColor": "#FFFFFF",
+    "borderColor": "#4338CA"
+  },
+  {
+    "id": "landlord",
+    "name": "Baba Landlord",
+    "role": "Rent Collector & House Witch",
+    "emoji": "🏠",
+    "bgColor": "#EF4444",
+    "textColor": "#FFFFFF",
+    "borderColor": "#B91C1C",
+    "cities": {
+      "douala": {
+        "name": "Bailleur Fotso"
+      },
+      "accra": {
+        "name": "Landlord Opoku"
+      }
+    }
+  },
+  {
+    "id": "boss",
+    "name": "Oga Jude",
+    "role": "Sapa Employer (Owing 3 Months)",
+    "emoji": "💼",
+    "bgColor": "#06B6D4",
+    "textColor": "#000000",
+    "borderColor": "#0E7490",
+    "cities": {
+      "douala": {
+        "name": "Patron Ekwalla"
+      },
+      "accra": {
+        "name": "Boss Kofi"
+      }
+    }
+  },
+  {
+    "id": "customs",
+    "name": "Officer Bello",
+    "role": "{airport} Toll Collector",
+    "emoji": "👮🏿‍♂️",
+    "bgColor": "#EAB308",
+    "textColor": "#000000",
+    "borderColor": "#A16207",
+    "cities": {
+      "douala": {
+        "name": "Officer Nkoulou"
+      },
+      "accra": {
+        "name": "Officer Asante"
+      }
+    }
+  },
+  {
+    "id": "landlady_europe",
+    "name": "Frau Helga",
+    "role": "Berlin Room Subletter & Radiator Police",
+    "emoji": "🥶",
+    "bgColor": "#64748B",
+    "textColor": "#FFFFFF",
+    "borderColor": "#334155"
+  },
+  {
+    "id": "njangi",
+    "name": "Mami Clarisse",
+    "role": "Njangi Treasurer & Bayam-Sellam",
+    "emoji": "👩🏿‍🦱",
+    "bgColor": "#F97316",
+    "textColor": "#000000",
+    "borderColor": "#C2410C"
+  },
+  {
+    "id": "bendskin",
+    "name": "Petit Bendskin",
+    "role": "Moto-Taxi Philosopher",
+    "emoji": "🏍️",
+    "bgColor": "#FACC15",
+    "textColor": "#000000",
+    "borderColor": "#A16207"
+  },
+  {
+    "id": "feyman",
+    "name": "Rodrigue le Feyman",
+    "role": "Akwa Visa \"Facilitator\"",
+    "emoji": "🎩",
+    "bgColor": "#A855F7",
+    "textColor": "#FFFFFF",
+    "borderColor": "#7E22CE"
+  },
+  {
+    "id": "gendarme",
+    "name": "Gendarme Mbarga",
+    "role": "Checkpoint Coffee Collector",
+    "emoji": "🚨",
+    "bgColor": "#22C55E",
+    "textColor": "#000000",
+    "borderColor": "#15803D"
+  },
+  {
+    "id": "cousin_paris",
+    "name": "Cousine Murielle",
+    "role": "Bush Faller Vet (Château-Rouge, Paris)",
+    "emoji": "🇫🇷",
+    "bgColor": "#60A5FA",
+    "textColor": "#000000",
+    "borderColor": "#1D4ED8"
+  },
+  {
+    "id": "ecg",
+    "name": "Officer Mensah",
+    "role": "ECG Dumsor Coordinator",
+    "emoji": "💡",
+    "bgColor": "#FDE047",
+    "textColor": "#000000",
+    "borderColor": "#CA8A04"
+  },
+  {
+    "id": "sakawa",
+    "name": "Fiifi Sakawa",
+    "role": "\"Online Businessman\", East Legon",
+    "emoji": "📱",
+    "bgColor": "#14B8A6",
+    "textColor": "#000000",
+    "borderColor": "#0F766E"
+  },
+  {
+    "id": "makola",
+    "name": "Auntie Dede",
+    "role": "Makola Market Queen",
+    "emoji": "🧺",
+    "bgColor": "#FB7185",
+    "textColor": "#000000",
+    "borderColor": "#BE123C"
+  },
+  {
+    "id": "trotro",
+    "name": "Kwame the Mate",
+    "role": "Trotro Conductor, Circle–Madina",
+    "emoji": "🚐",
+    "bgColor": "#84CC16",
+    "textColor": "#000000",
+    "borderColor": "#4D7C0F"
+  },
+  {
+    "id": "cousin_london",
+    "name": "Cousin Kojo",
+    "role": "Bush Faller Vet (Hackney, London)",
+    "emoji": "🇬🇧",
+    "bgColor": "#818CF8",
+    "textColor": "#FFFFFF",
+    "borderColor": "#4338CA"
+  }
+]

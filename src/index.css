@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+/* Design tokens: deep navy base, warm yellow / green / red accents */
+@theme {
+  --font-title: "Lilita One", "Nunito", system-ui, sans-serif;
+  --font-body: "Nunito", system-ui, -apple-system, sans-serif;
+
+  --color-navy-950: #070D22;
+  --color-navy-900: #0B1430;
+  --color-navy-800: #13204A;
+  --color-navy-700: #1C2D63;
+  --color-navy-600: #2A3E80;
+  --color-ink: #050914;
+  --color-cream: #FFF6E3;
+  --color-sun: #FFC93C;
+  --color-sun-dark: #E0A500;
+  --color-leaf: #2FCB7A;
+  --color-leaf-dark: #16995A;
+  --color-chili: #FF5A4E;
+  --color-chili-dark: #D63A2F;
+  --color-sky: #4FA8FF;
+}
+
+@layer base {
+  :root {
+    --safe-top: env(safe-area-inset-top, 0px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+    height: 100dvh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--color-navy-950);
+    font-family: var(--font-body);
+  }
+}
+
+/* Chunky flat drop shadows (hard, no blur) */
+.shadow-comic {
+  box-shadow: 0 4px 0 0 var(--color-ink);
+}
+
+.shadow-comic-lg {
+  box-shadow: 0 7px 0 0 var(--color-ink);
+}
+
+.shadow-comic-sm {
+  box-shadow: 0 2px 0 0 var(--color-ink);
+}
+
+/* Tactile press: button sinks into its shadow */
+.press {
+  transition: transform 90ms ease-out, box-shadow 90ms ease-out;
+}
+.press:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 0 var(--color-ink);
+}
+
+/* Subtle diagonal stripes for the card back */
+.card-back-pattern {
+  background-image: repeating-linear-gradient(135deg, rgba(255,255,255,0.06) 0 12px, transparent 12px 24px);
+}
+
+.border-comic {
+  border: 3.5px solid #000000;
+}
+
+.border-comic-thick {
+  border: 4.5px solid #000000;
+}
+
+/* 100dvh mobile container */
+.app-screen {
+  height: 100dvh;
+  max-height: 100dvh;
+  padding-top: var(--safe-top);
+  padding-bottom: var(--safe-bottom);
+}
+
+/* Hide scrollbars completely */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Windows has no flag emoji; use Noto just for flags */
+.flag-emoji {
+  font-family: 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', sans-serif;
+}

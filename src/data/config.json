@@ -1,0 +1,10 @@
+{
+  "cardsPerStage": 3,
+  "graceCards": 5,
+  "graceFloor": 15,
+  "stageOneMaxHit": 25,
+  "shareUrl": "",
+  "dailyEpoch": "2026-10-01",
+  "adsContact": { "label": "PLACEHOLDER ads@example.com", "url": "mailto:ads@example.com?subject=Bush%20Faller%20ad" },
+  "initialStats": { "money": 40, "papers": 35, "morale": 65, "familyPressure": 60 }
+}

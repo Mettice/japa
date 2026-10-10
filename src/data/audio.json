@@ -1,0 +1,10 @@
+{
+  "_note": "Put tracks in /public/audio. They stream on demand (preload=none) and are skipped if missing.",
+  "music": [
+    {
+      "src": "/audio/theme.mp3",
+      "title": "PLACEHOLDER theme",
+      "credit": "PLACEHOLDER artist"
+    }
+  ]
+}

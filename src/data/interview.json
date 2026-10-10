@@ -1,0 +1,65 @@
+{
+  "_note": "PLACEHOLDER questions: rewrite freely. 'correct' is the index into 'answers' (3 answers each); answers are shuffled at runtime.",
+  "questions": [
+    {
+      "id": "purpose",
+      "question": "What is the purpose of your trip?",
+      "answers": ["Tourism, then I return", "To find my destiny helper", "Agent Chidi said to come"],
+      "correct": 0
+    },
+    {
+      "id": "duration",
+      "question": "How long will you stay?",
+      "answers": ["Two weeks, sir", "Until God says otherwise", "Until my visa expires and beyond"],
+      "correct": 0
+    },
+    {
+      "id": "sponsor",
+      "question": "Who is paying for this trip?",
+      "answers": ["My uncle, the prophet", "Me — here are my payslips", "Njangi + church harvest"],
+      "correct": 1
+    },
+    {
+      "id": "job",
+      "question": "What do you do for work?",
+      "answers": ["Business", "I'm an accountant at a bank", "Hustle, you know how it is"],
+      "correct": 1
+    },
+    {
+      "id": "return",
+      "question": "Why will you come back?",
+      "answers": ["Mama's jollof", "My job and my family are here", "Who says I'm coming back?"],
+      "correct": 1
+    },
+    {
+      "id": "hotel",
+      "question": "Where will you stay?",
+      "answers": ["Booked hotel — here's the reservation", "My cousin's sofa in Peckham", "I'll find somewhere"],
+      "correct": 0
+    },
+    {
+      "id": "deposit",
+      "question": "Why did a large sum land in your account last week?",
+      "answers": ["Inheritance from a royal uncle", "Sale of my car — receipt attached", "Miracle money"],
+      "correct": 1
+    },
+    {
+      "id": "travel_before",
+      "question": "Have you travelled abroad before?",
+      "answers": ["Yes — Dubai, and I came back", "In the spirit, many times", "Lagos to Cotonou by road"],
+      "correct": 0
+    },
+    {
+      "id": "relatives",
+      "question": "Do you have relatives in Europe?",
+      "answers": ["Only Uncle Emma… who overstayed", "No sir, none", "The whole village"],
+      "correct": 1
+    },
+    {
+      "id": "language",
+      "question": "Say something in English to prove fluency.",
+      "answers": ["My visa was approved in heaven", "I am here for a short visit", "Abeg, no wahala"],
+      "correct": 1
+    }
+  ]
+}

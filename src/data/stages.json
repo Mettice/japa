@@ -1,0 +1,59 @@
+[
+  {
+    "id": "hustle",
+    "name": "The Hustle",
+    "city": "{cityName}",
+    "tagline": "Gathering proof of funds while dodging landlord.",
+    "order": 1,
+    "color": "#F59E0B",
+    "icon": "🏃🏾‍♂️"
+  },
+  {
+    "id": "documents",
+    "name": "Documents & Agent",
+    "city": "{market}",
+    "tagline": "Fabricating bank statements and birth certificates.",
+    "order": 2,
+    "color": "#3B82F6",
+    "icon": "📑"
+  },
+  {
+    "id": "embassy",
+    "name": "Embassy Vigil",
+    "city": "{embassyGate}",
+    "tagline": "Standing in 3 AM rain with translucent plastic folder.",
+    "order": 3,
+    "color": "#8B5CF6",
+    "icon": "🏛️",
+    "miniGame": "queue"
+  },
+  {
+    "id": "interview",
+    "name": "The Visa Interview",
+    "city": "Window Number 7",
+    "tagline": "Sweating through your rented oversized suit.",
+    "order": 4,
+    "color": "#EC4899",
+    "icon": "🎤",
+    "miniGame": "interview"
+  },
+  {
+    "id": "flight",
+    "name": "Transit & Flight",
+    "city": "{airport} / Istanbul Transit",
+    "tagline": "Praying luggage scale doesn't expose 14kg of dried fish.",
+    "order": 5,
+    "color": "#10B981",
+    "icon": "✈️"
+  },
+  {
+    "id": "winter",
+    "name": "First Winter",
+    "city": "Berlin / London / Rome",
+    "tagline": "Surviving -4°C in a fake Primark coat with 5 flatmates.",
+    "order": 6,
+    "color": "#06B6D4",
+    "icon": "❄️",
+    "miniGame": "winter"
+  }
+]
